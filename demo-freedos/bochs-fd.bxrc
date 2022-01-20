@@ -1,0 +1,28 @@
+cpu: model=bx_generic, count=1, ips=1000000, reset_on_triple_fault=1, ignore_bad_msrs=1, msrs="msrs.def"
+
+clock: sync=slowdown, time0=local
+
+megs: 16
+
+romimage: file=$BXSHARE/BIOS-bochs-latest, address=fastboot
+vgaromimage: file=$BXSHARE/VGABIOS-lgpl-latest
+
+floppya: 1_44="FLOPPY.img", status=inserted
+
+boot: a
+
+#pci: enabled=1, chipset=i440fx
+
+keyboard: keymap=$BXSHARE/keymaps/sdl2-pc-us.map
+mouse: enabled=0
+parport1: enable=0
+
+debug: keyboard=report
+
+magic_break: enabled=0
+port_e9_hack: enabled=1
+
+display_library: sdl2
+private_colormap: enabled=0
+
+log: log.fd.txt
