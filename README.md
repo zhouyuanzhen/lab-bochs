@@ -4,7 +4,7 @@ This is a Bochs workspace to play with some old vresion Linux kernel and also us
 
 ## Overview
 
-- demo-mbr : A MBR demo to show "Hello 2022!"
+- demo-mbr : A MBR demo to show "Hello 2025!"
 
 ## Bochs Environment
 
@@ -20,5 +20,5 @@ brew install bochs
 
 ```shell
 echo "Demo with MBR example:"
-cd demo-mbr; make burnfd; burnfd run-fd
+cd demo-mbr; make burnfd; make run-fd
 ```
