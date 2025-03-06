@@ -1,11 +1,11 @@
-cpu: model=bx_generic, count=1, ips=1000000, reset_on_triple_fault=1, ignore_bad_msrs=1, msrs="msrs.def"
+cpu: count=1, ips=1000000, reset_on_triple_fault=1, ignore_bad_msrs=1, msrs="msrs.def"
 
 clock: sync=slowdown, time0=local
 
 megs: 16
 
 romimage: file=$BXSHARE/BIOS-bochs-latest, address=fastboot
-vgaromimage: file=$BXSHARE/VGABIOS-lgpl-latest
+vgaromimage: file=$BXSHARE/VGABIOS-lgpl-latest.bin
 
 floppya: 1_44="fd.img", status=inserted
 
