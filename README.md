@@ -2,9 +2,16 @@
 
 This is a Bochs workspace to play with some old vresion Linux kernel and also use to learn Assembly language.
 
+## Screen Shots
+
+- ![Screenshot_FreeDos_1.2_1.png](resources/Screenshot_FreeDos_1.2_1.png)
+- ![Screenshot_FreeDos_1.2_2.png](resources/Screenshot_FreeDos_1.2_2.png)
+- ![Screenshot_FreeDos_1.3.png](resources/Screenshot_FreeDos_1.3.png)
+
 ## Overview
 
 - demo-mbr : A MBR demo to show "Hello 2025!"
+- demo-freedos : FreeDos 1.2 & 1.3 demo with bochs
 
 ## Bochs Environment
 
